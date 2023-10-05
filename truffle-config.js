@@ -1,8 +1,8 @@
 module.exports = {
   networks: {
     development: {
-      host: "127.0.0.1",
-      port: 3000,
+      host: "https://rock-paper-scissors-nine-orcin.vercel.app",
+      
       network_id: "*" // Match any network id
     }
   },
