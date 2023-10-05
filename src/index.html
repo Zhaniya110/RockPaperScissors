@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors DApp</title>
+</head>
+<body>
+    <h1>Rock-Paper-Scissors DApp</h1>
+    <button onclick="register()">Register</button>
+    <button onclick="play('Rock')">Play Rock</button>
+    <button onclick="play('Paper')">Play Paper</button>
+    <button onclick="play('Scissors')">Play Scissors</button>
+    <button onclick="reveal('Rock')">Reveal Rock</button>
+    <button onclick="reveal('Paper')">Reveal Paper</button>
+    <button onclick="reveal('Scissors')">Reveal Scissors</button>
+    <button onclick="getOutcome()">Get Outcome</button>
+    <button onclick="startRevealPhase()">Start Reveal Phase</button>
+    <div id="status"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+    <script src="./migrations/1_app.js"></script>
+</body>
+</html>
